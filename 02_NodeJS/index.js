@@ -66,7 +66,7 @@ usuarioPromise
     console.log(`
       Nome: ${resultado.usuario.nome}
       Endereco: ${resultado.endereco.rua}, ${resultado.endereco.numero}
-      Telefone: (${resultado.telefone.ddd}) ${resultado.telefone.telefone}
+       Telefone: (${resultado.telefone.ddd}) ${resultado.telefone.telefone}
     `);
   })
   .catch(function(error){
